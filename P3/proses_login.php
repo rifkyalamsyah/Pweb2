@@ -6,7 +6,7 @@ $password = "admin";
 if ($_POST['username'] && $_POST['password']) {
 
     if ($_POST['username'] == $username && $_POST['password'] == $password) {
-        header('location:home.php');
+        header('location:dashboard.php');
         // echo "Berhasil login";
     } elseif ($_POST['username'] !== $username && $_POST['password'] == $password) {
         echo "Username Salah";

@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <h2>Welcome</h2>
+    <h2>Dashboard</h2>
+    <h4>Welcome Admin</h4>
 </body>
 
 </html>
